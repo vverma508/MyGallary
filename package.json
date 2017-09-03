@@ -1,0 +1,29 @@
+{
+    "name": "mygallary",
+    "version": "1.0.0",
+    "description": "This app has my image collection",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vverma508/MyGallary.git"
+    },
+    "keywords": [
+        "gallary",
+        "image",
+        "pic"
+    ],
+    "author": "Vivek Verma",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vverma508/MyGallary/issues"
+    },
+    "homepage": "https://github.com/vverma508/MyGallary#readme",
+    "dependencies": {
+        "body-parser": "^1.17.2",
+        "ejs": "^2.5.7",
+        "express": "^4.15.4"
+    }
+}
