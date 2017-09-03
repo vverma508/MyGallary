@@ -4,7 +4,8 @@
     "description": "This app has my image collection",
     "main": "app.js",
     "engines": {
-    "node": "6.11.1"
+    "node": "6.11.1",
+    "npm": "3.10.10"
     },
     "scripts": {
         "start": "node app.js"
