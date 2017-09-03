@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 var port = process.env.PORT || 3000;
 
 app.listen(port, function() {
-    console.log("Server is running.")
+    console.log("Server is running at:" +  process.env.PORT)
 })
 
 app.get("/location", routes.showLocationGallary)
