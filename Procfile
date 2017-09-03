@@ -1,3 +1,2 @@
-web: bin/web
-worker: bin/worker
-web : node start
+web: ./bin/www
+web: node start
