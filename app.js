@@ -9,6 +9,10 @@ app.use(express.static("images"));
 app.set('views', __dirname + '/views');
 app.set("view engine", "ejs");
 
+app.configure(function(){
+    app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
+});
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }))
 
