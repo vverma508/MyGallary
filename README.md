@@ -8,3 +8,8 @@ This app has a welcome page , from which you can go to specific album.
 1) Express.js
 2) ejs.js
 3) Body-Parser.js
+
+Deployed at Heroku.
+###### website : https://mygallary.herokuapp.com
+
+###### Home page image credit : Clement Francis M
