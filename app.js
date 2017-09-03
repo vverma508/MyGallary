@@ -13,11 +13,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }))
 
 var port = process.env.PORT || 3000;
-
+app.get("/", function(req,res){
+res.send("hello")})
 app.get("/location", routes.showLocationGallary)
-app.get("/", routes.welcomePage)
+//app.get("/", routes.welcomePage)
 
-app.listen(port,'0.0.0.0', function() {
+app.listen(port, function() {
     console.log("Server is running at:" +  process.env.PORT)
 })
 
