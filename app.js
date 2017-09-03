@@ -12,7 +12,10 @@ app.set("view engine", "ejs");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }))
 
+
+
 var port = process.env.PORT || 3000;
+console.log(port);
 app.get("/", function(req,res){
 res.send("hello")})
 app.get("/location", routes.showLocationGallary)
