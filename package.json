@@ -7,7 +7,6 @@
     "node": "6.9.4"
     },
     "scripts": {
-        "postinstall": "bower install && grunt build",
         "start": "node app.js"
     },
     "repository": {
