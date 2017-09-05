@@ -1,0 +1,34 @@
+doctype html
+head
+    title
+      | My Gallary
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    // Latest compiled and minified CSS
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    // jQuery library
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+    // Latest compiled JavaScript
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+body
+    .panel.panel-primary
+      .panel-heading
+        include ./partial/header.pug
+      .panel-body.container
+        .row
+          .col-md-1
+          .col-md-4
+            img(width='450px', height='400px', src='/hill/1.jpg')
+          .col-md-2
+          .col-md-4
+            img(width='450px', height='400px', src='/hill/2.jpg')
+          .col-md-1
+        .row  
+        .row
+          .col-md-1
+          .col-md-4
+            img(width='450px', height='400px', src='/hill/3.jpg')
+          .col-md-2
+          .col-md-4
+            img(width='450px', height='400px', src='/hill/4.jpg')
+          .col-md-1

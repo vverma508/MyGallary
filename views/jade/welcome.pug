@@ -1,0 +1,40 @@
+doctype html
+head
+    title My Gallary
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    // Latest compiled and minified CSS
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    // jQuery library
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+    // Latest compiled JavaScript
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+body
+    .panel.panel-primary
+      .panel-heading
+         include ./partial/header.pug
+      .panel-body.container
+        .row
+          .col-md-1
+          .col-md-4
+            .row
+              .col-md-3
+              .col-md-6
+                | Click To See Goa Album
+              .col-md-3
+            .row  
+            .row
+              a(href='/location?loc=goa')
+                img(width='450px', height='400px', src='https://d1j3wd17d78ehn.cloudfront.net/system/images/000/054/516/32a80b3cb32177b493ba654956ca73d1/original/Goa.jpg?1484974071')
+          .col-md-2
+          .col-md-4
+            .row
+              .col-md-2
+              .col-md-8
+                | Click To See LalBagh Album
+              .col-md-2
+            .row  
+            .row
+              a(href='/location?loc=garden')
+                img(width='450px', height='400px', src='https://fourplacesaroundbangalore.files.wordpress.com/2014/02/nandihills2scape.jpg')
+          .col-md-1
